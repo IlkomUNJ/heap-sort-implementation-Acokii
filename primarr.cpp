@@ -60,6 +60,7 @@ void MaxHeap::insert(int val){
         heap[++size] = val;
         // cout << heap[size] << endl;
     }else{
+        cout << "insert melebihi kapasitas array yang telah ditetapkan";
         return;
     }
     shiftUp(size);
